@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    </head>
+<body>
+    <div>
+        <button onclick="navigateToRoute('/produtos')">
+            Produtos
+        </button>
+        <button onclick="navigateToRoute('/contatos')">
+            Go to Another Route
+        </button>
+    </div>
+    <script>
+        function navigateToRoute(route) {
+    window.location.href = route;
+}
+    </script>
+</body>
+</html>
